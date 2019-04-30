@@ -1,0 +1,92 @@
+<html>
+  <head>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+    <title>Login</title>
+
+    <style>
+      body {
+            background-image: url("../images/mini2.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+    </style>
+  </head>
+  
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #468499;">
+      <a class="navbar-brand" href="/about">Mini Project</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item ">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="/login"><b>Login</b><span class="sr-only">(current)</span></a>
+          </li>
+          
+          
+        </ul>
+      </div>
+    </nav>
+
+
+    <div class="container" style="margin: 5% 32%">
+        <div class="row">
+    		    <div class="col-md-12">
+                    <h3>Login to Mini Project</h3>
+
+                        <form method="post" action="/login">
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                  <label for="inputUsername">Username</label>
+                                  <input type="text" class="form-control" id="inputUsername" placeholder="Username">
+                                </div>
+                                
+                              </div>
+
+
+                                
+                            
+
+                            <div class="form-row">
+                                
+                                <div class="form-group col-md-6">
+                                  <label for="inputPassword">Password</label>
+                                  <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                                </div>
+                            
+                            </div>
+                            
+             
+                            
+                          <!-- <button type="submit" class="btn btn-primary">Sign in</button> -->
+                          <a class="btn btn-primary" href="/viewDetails" role="button">Login</a>
+                          <!-- <a class="btn btn-primary" href="/login" role="button">Login</a> -->
+                         
+                            
+                          
+
+                      </form>
+                    </div> 
+                        
+
+                        
+                    
+            </div>
+    	 </div>
+    </div>
+
+  </body>
+</html>
